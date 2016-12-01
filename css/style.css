@@ -4,35 +4,6 @@ body{
 	background: -webkit-linear-gradient(to left, #70e1f5 , #ffd194); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #70e1f5 , #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-h1{
-	background:lightblue;
-	margin:0;
-	padding-left: 10px;
-	line-height: 40px;
-	color:white;
-	font-size: 24px;
-	font-weight: normal;
-	text-transform: uppercase;
-	height: 40px;
-
-}
-span{
-	height:40px;
-	background-color: red;
-	margin-right: 20px;
-	text-align: center;
-	color: white;
-	display:inline-block;
-	width: 0;
-	line-height: 40px;
-	opacity:0;
-}
-li:hover span{
-	width: 40px;
-	opacity:1.0;
-
-	
-}
 ul{
 	margin: 0;
 	padding:0;
@@ -49,7 +20,41 @@ li{
 
 
 }
+li:hover span{
+	width: 40px;
+	opacity:1.0;
 
+	
+}
+h1{
+	background:lightblue;
+	margin:0;
+	padding-left: 10px;
+	line-height: 40px;
+	color:white;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	height: 40px;
+
+}
+
+span{
+	height:40px;
+	background-color: red;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	display:inline-block;
+	width: 0;
+	line-height: 40px;
+	opacity:0;
+}
+#hspan{
+	
+	color: white;
+	background-color: white;
+}
 input[type='text']{
 	width:336px;
 	height:40px;
