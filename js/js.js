@@ -20,3 +20,8 @@ $('input[type="text"]').keypress(function(event){
 
 })
 $('ul li:nth-child(2n)').css('background','#fcf7f7')	
+$('h1').on('click','i',function(){
+	
+	console.log(true);	
+	$('input[type="text"]').fadeToggle();
+})
